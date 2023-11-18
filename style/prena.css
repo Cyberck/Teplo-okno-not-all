@@ -1,0 +1,86 @@
+@import url(fonts.css);
+
+
+/* header-prenav start */
+.prenav {
+    padding: 42px 0 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  
+  .prenav-title {
+    color: var(--ligth-black);
+    /* Text 18 */
+    font-family: var(--RR);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 339px;
+    width: 100%;
+    /* margin-right: 100px; */
+  }
+  
+  .prenav-location {
+    column-gap: 47px;
+    display: flex;
+  }
+  
+  .prenav-text {
+    color: var(--grey);
+    font-family: var(--RR);
+    font-size: 16px;
+    line-height: 100%;
+    max-width: 196px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .prenav-button {
+    border-radius: 84px;
+    border: 1px solid var(--ligth-green);
+    max-width: 240px;
+    width: 100%;
+    padding: 14px 27px;
+    background: var(--white);
+  }
+  
+  .prenav-btn {
+    color: var(--ligth-green);
+    font-family: var(--RR);
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+  }
+  
+  .prenav-btn pre {
+    margin-left: 7px;
+  }
+  
+  .prenav-contact {
+    display: flex;
+    column-gap: 7px;
+  }
+  
+  .prenav-tel {
+    color: var(--grey-black);
+    font-family: var(--RBlack);
+    font-size: 24px;
+    line-height: 100%;
+  }
+  
+  
+  /* header-prenav end */
+  
+
+  /* ***** Media start ***** */
+  @media (max-width: 1300px) {
+      .prenav {
+          flex-wrap: wrap;
+      }
+  }
+
+  /* ***** Media end ***** */

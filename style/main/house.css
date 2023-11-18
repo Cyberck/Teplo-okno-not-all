@@ -32,7 +32,7 @@
 
 /* ****Root end**** */
 
-.house {  
+.house {
     background: rgba(98, 170, 255, 0.39);
     padding-top: 89px;
     padding-bottom: 89px;
@@ -50,7 +50,7 @@
     color: var(--ligth-black);
     font-family: var(--Uni);
     font-size: 32px;
-    line-height: 40px; 
+    line-height: 40px;
     max-width: 494px;
     width: 100%;
 }
@@ -59,7 +59,7 @@
     color: var(--grey-black);
     font-family: var(--RR);
     font-size: 18px;
-    line-height: 24px; 
+    line-height: 24px;
     max-width: 417px;
     width: 100%;
     margin-top: 15px;
@@ -77,7 +77,7 @@
     color: var(--white);
     font-family: var(--RR);
     font-size: 22px;
-    line-height: 100%; 
+    line-height: 100%;
     text-transform: uppercase;
     border-radius: 55px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.00) 100%), #1567E9;
@@ -102,50 +102,17 @@
 .house-right__img {
     position: absolute;
     top: -150px;
-    left: 550px;
+    left: 650px;
+    max-width: 457px;
+    width: 100%;
 }
 
 
+/* ***** Media start ***** */
+@media (max-width: 1300px) {
+    .house-group {
+        flex-wrap: wrap;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ***** Media end ***** */

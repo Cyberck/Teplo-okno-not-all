@@ -1,0 +1,33 @@
+@import url(fonts.css);
+
+
+
+/* header-nav start */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  
+  .nav__list {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list__link {
+    color: var(--black);
+    text-align: right;
+    font-family: var(--RR);
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 32px;
+  }
+  
+  .nav-list__miniLink {
+    border-left: 1px solid #999999;
+    border-right: 1px solid #999999;
+    padding: 0 32px;
+  }
+  
